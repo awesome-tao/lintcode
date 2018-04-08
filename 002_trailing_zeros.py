@@ -16,5 +16,7 @@ def trailingZeros(n):
 
     return count
 
-
 # python -m doctest -v 002_trailing_zeros.py
+
+print(trailingZeros(10))
+
