@@ -46,9 +46,11 @@ def kthLargestElement(k, alist):
             index = partition(alist, index + 1, end)
     return alist[:k]
 
+
 ########################################
 # 2.
 import heapq
+
 
 # 大顶堆
 def get_least_numbers_big_data(alist, k):
@@ -66,13 +68,14 @@ def get_least_numbers_big_data(alist, k):
 
     return max_heap
 
+
 ########################################
 # 3.
-k=3
-list=[5,8,0,3,6,7,9,1,4,2]
+k = 3
+list = [5, 8, 0, 3, 6, 7, 9, 1, 4, 2]
 import heapq
-heapq.nlargest(k, list)
 
+heapq.nlargest(k, list)
 
 '''
 # 计数排序
